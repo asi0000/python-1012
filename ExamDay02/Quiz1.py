@@ -8,3 +8,6 @@ print(a+b);
 
 c="python" ;
 print(c*10);
+
+result = c*10;
+print(result);
