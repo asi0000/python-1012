@@ -10,3 +10,4 @@ print("age변수 type ? ",type(age));
 print("본인성별 : ", gender);
 print("본인학교 : ", school);
 print("거주지 : ", address);
+
