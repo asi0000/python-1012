@@ -9,7 +9,7 @@ print(price[1:]);
 2. 슬라이싱을 사용해서 홀수만 출력하세요.
 '''
 nums = [1,2,3,4,5,6,7,8,9,10];
-print(nums[0::2]);
+print(nums[::2]);
 
 '''
 3. lang1과 lang2 리스트가 있을 때 lang1과 lang2의 원소를
