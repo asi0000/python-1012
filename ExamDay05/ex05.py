@@ -14,4 +14,40 @@ False       True        False
 True        False       False
 True        True        True
 
+OR
+A           B           C
+False       False       False
+False       True        True
+True        False       True
+True        true        True
+
+NOT
+True => False
+False => True
 '''
+
+print(True and True);
+print(True and False);
+print(False and True);
+print(False and False);
+
+print();
+
+print(True or True);
+print(True or False);
+print(False or True);
+print(False or False);
+
+print();
+
+print(not True);
+print(not False);
+
+print("===========================")
+# 논리연산자와 관계연산자를 함께 사용하기
+print(10 == 10 and 10 != 5);
+print(10 > 5 or 10 < 3);
+print(not 10 > 5);
+
+
+

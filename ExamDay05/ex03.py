@@ -3,10 +3,10 @@
 a1 = 10;
 b1 = 20;
 print("a1의 값 : ", a1); print("b1의 값 : ", b1);
-temp = a1;
-a1 = b1;
+c = a1; # c에 a1값이 들어감 c=10
+a1 = b1; # a1에 b1값이 듫어감 a=20
 print(a1);
-b1 = temp;
+b1 = c; #b1에 c값이 들어감 b1= 10
 print(b1);
 print("a1의 값 : ", a1); print("b1의 값 : ", b1);
 
