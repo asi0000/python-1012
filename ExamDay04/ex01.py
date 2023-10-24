@@ -43,7 +43,7 @@ print(remove_arrays);
 
 # 리스트 뒤집기
 close = [10,20,30,400,2];
-close.reve();
+close.remove();
 print(close);
 
 
