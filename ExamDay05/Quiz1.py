@@ -11,9 +11,9 @@
 
 a = int(input("숫자입력 >> "));
 b = int(input("숫자입력 >> "));
-c = a;
-a = b;
-b = c;
+c = a; #a를 비운다 생각
+a = b; #a에 비를 담는다
+b = c; #c에 담아둔 a값을 b에 넣어준다.
 print(a); print(b);
 
 '''
@@ -30,4 +30,10 @@ print(a); print(b);
 
 a = int(input("10 ~ 99 사이의 정수를 입력 >> "));
 
-print("십의자리 : ", int(a/10)); print("일의자리 : ", int(a%10));
+print("십의자리 : ", int(a/10));
+print("일의자리 : ", (a%10));
+
+result1 = a//10;
+result2 = a%10;
+print("십의자리 : ", result1);
+print("일의자리 : ", result2);
