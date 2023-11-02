@@ -24,17 +24,18 @@
 # 숫자입력 >> 36
 # 정답입니다! 7회 만에 맞췄어요.
 import random
-num = random.randrange(1, 101);
+gamenum = random.randint(1, 100);
 
 print("1~100 중 랜덤 숫자 하나를 정합니다.")
 print("이 숫자를 맞춰 주세요.")
-
+i = 0;
 while True:
-    num1 = int(input("숫자입력 >> "))
-    if num == num1:
-        print("정답입니다! {}회 만에 맞췄어요".format())
+    usernum = int(input("숫자입력 >> "))
+    i = i + 1;
+    if gamenum == usernum:
+        print("정답입니다!", i, "회 만에 맞췄어요");
         break
-    elif num > num1:
+    elif usernum > gamenum:
         print("DOWN");
-    if num < num1:
+    else:
         print("UP");
