@@ -23,18 +23,18 @@
 # DOWN
 # 숫자입력 >> 36
 # 정답입니다! 7회 만에 맞췄어요.
+import random
+num = random.randrange(1, 101);
 
-for i in range(1,101,1):
-    print(i);
 print("1~100 중 랜덤 숫자 하나를 정합니다.")
 print("이 숫자를 맞춰 주세요.")
-num = 0;
+
 while True:
-    int(input("숫자입력 >> "))
-    num = num + 1
-    if num == i:
+    num1 = int(input("숫자입력 >> "))
+    if num == num1:
         print("정답입니다! {}회 만에 맞췄어요".format())
-    elif num > i:
+        break
+    elif num > num1:
         print("DOWN");
-    if num < i:
+    if num < num1:
         print("UP");
