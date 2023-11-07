@@ -49,7 +49,7 @@ while True:
         a를 입력하면 도서 저자로 검색
         p를 입력하면 도서 출판사로 검색
         '''
-        print("n:제목 | a:저자 | p:출판사")
+        print("n:제목 | a:저자 | p:출판사");
         search_type = input("검색할 타입을 선택해 주세요 >> ");
 
         if search_type == 'n':
@@ -86,7 +86,11 @@ while True:
                     print("출판사 : {}".format(item.get('publisher')));
                     print("============================================");
     elif choice == 4:
-        pass; # 과제 !!
+        book_del = int(input("삭제 할 도서 번호를 입력해 주세요 >>"))
+        for item in range(len(book_mark)):
+            if book_mark[item]['seq'] == book_del:
+                del book_mark[item];
+                break;
     elif choice == 5:
         print("프로그램 종료")
         break;
