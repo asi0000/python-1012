@@ -3,7 +3,7 @@ round() 함수
 - 전달된 인수를 이용해 반올림한 값을 반환
 
 round half even
-짝수에 가까운쪽을 반올림 한다
+짝수에 가까운 쪽 숫자를 반올림 한다
 '''
 print(round(1.5));
 print(round(1.4));
